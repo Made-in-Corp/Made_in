@@ -92,7 +92,10 @@ h6 {
 h1 {
     font-size: 24px
 }
-
+.msgicon{
+              width: 3.5rem;
+            }
+F
 .small_heading.main-heading h2 {
     font-size: 21px;
 }
@@ -189,7 +192,7 @@ a.btn:hover,
 button.btn:hover,
 a.btn:focus,
 button.btn:focus {
-    background: #252525;
+    background: #fff;
     color: #fff;
 }
 
@@ -202,7 +205,7 @@ button {
 
     color: #fff;
     font-size: 14px;
-    min-width: 140px;
+    min-width: 155px;
     float: left;
     text-align: center;
     height: 48px;
@@ -214,10 +217,10 @@ button {
     transition: ease all 0.5s;
 
 }
-
 .bt_main:hover,
 .bt_main:focus {
     color: #fff;
+    background-color: #fff;
 }
 
 .reverse_bt.bt_main {
@@ -233,8 +236,43 @@ button {
     color: #fff;
 }
 
+.bt_main2{
+
+    color: #fff;
+    font-size: 14px;
+    min-width: 155px;
+    float: left;
+    text-align: center;
+    height: 48px;
+    line-height: 50px;
+    font-weight: 500;
+    border: none;
+    padding: 0 35px;
+    transition: ease all 0.5s;
+
+}
+
+.bt_main2:hover,
+.bt_main2:focus {
+    color: #fff;
+    background-color: #fff;
+}
+
+.reverse_bt.bt_main2 {
+    color: #fff;
+}
+
+.white_bt.bt_main2 {
+    background: #fff;
+}
+
+.white_bt.bt_main2:hover,
+.white_bt.bt_main2:focus {
+    color: #fff;
+}
+
 .field button {
-    background: #2b83e7;
+    background: #fff;
     color: #fff;
     font-size: 14px;
     width: auto;
@@ -253,7 +291,7 @@ button {
 
 .field button:hover, .field button:focus {
     background: #ffffff;
-    color: #062e52;
+    color: #fff;
 }
 
 .border_circle_bt {
@@ -914,8 +952,9 @@ div.left_head ul li i {
 }
 
 .logo {
-    margin: 13px 0 13px;
+    margin: 12px 0 12px;
     float: left;
+    margin-left: 25px;
 
 }
 
@@ -929,6 +968,7 @@ div.left_head ul li i {
 
 .main_menu {
     margin: 21px 0 0;
+    margin-right: 50px;
 }
 
 .menu-container {

@@ -23,6 +23,9 @@
     font-size: 12px;
     padding: 15px 8px;
 }
+.main_menu {
+    margin: 21px 0 0;
+}
 
 .right_cart_section ul li {
     margin-right: 20px;
@@ -59,6 +62,9 @@
         max-width: 990px;
         height: auto;
     }
+    .main_menu {
+        margin: 21px 0 0;
+    }
     .slide_cont h2 {
         font-size: 45px;
         line-height: 60px;
@@ -86,6 +92,10 @@
         margin: 0 !important;
     }
     .bt_main {
+       height: 48px;
+       padding: 0 25px; 
+    }
+    .bt_main2 {
        height: 48px;
        padding: 0 25px; 
     }
@@ -159,6 +169,9 @@
         font-size: 25px;
     }
     .bt_main {
+        font-size: 13px;
+    }
+    .bt_main2 {
         font-size: 13px;
     }
     .service_blog2 {
@@ -379,6 +392,9 @@
     .home_page1 .slide_cont {
         margin-top: 158px;
     }
+    .main_menu {
+    margin: 21px 0 0;
+}
     .layout_padding {
         padding: 80px 0 75px;
     }
@@ -482,6 +498,9 @@
         font-size: 25px;
     }
     .bt_main {
+        font-size: 13px;
+    }
+    .bt_main2 {
         font-size: 13px;
     }
     .service_blog2 {
@@ -770,6 +789,9 @@
         max-width: 540px;
         width: 100%:
     }
+    .main_menu {
+        margin: 21px 0 0;
+    }
     .inform_dentist_botm p {
         text-align: center;
     }
@@ -830,9 +852,11 @@
         width: 100%;
         justify-content: center;
         display: flex;
-        margin-top: 15px;
+        margin-top: 3px;
     }
     .right_bt a.bt_main {
+        width: 100%;
+    }.right_bt a.bt_main2 {
         width: 100%;
     }
     .home_page1 .padding_right_left_15 {
@@ -1007,6 +1031,13 @@
         font-size: 13px;
     }
     .bt_main {
+        font-size: 13px;
+        min-width: 120px;
+        height: 45px;
+        line-height: 45px;
+        padding: 0 10px;
+    }
+    .bt_main2 {
         font-size: 13px;
         min-width: 120px;
         height: 45px;
@@ -1645,6 +1676,9 @@
     .home_page20 .bt_main {
         padding: 0 25px;
     }
+    .home_page20 .bt_main2 {
+        padding: 0 25px;
+    }
     .top_sec {
         line-height: 24px;
         font-size: 15px;
@@ -1991,6 +2025,9 @@
     .cross_layout:before {
         height: 20px;
     }
+    .main_menu {
+        margin: 21px 0 0;
+    }
     .cross_layout:after {
         height: 20px;
     }
@@ -2013,9 +2050,12 @@
         width: 100%;
         justify-content: center;
         display: flex;
-        margin-top: 15px;
+        margin-top: 3px;
     }
     .right_bt a.bt_main {
+        width: 100%;
+    }
+    .right_bt a.bt_main2 {
         width: 100%;
     }
     .home_page1 .slide_cont {
@@ -2250,6 +2290,13 @@
         font-size: 13px;
     }
     .bt_main {
+        font-size: 13px;
+        min-width: 120px;
+        height: 45px;
+        line-height: 45px;
+        padding: 0 10px;
+    }
+    .bt_main2 {
         font-size: 13px;
         min-width: 120px;
         height: 45px;
@@ -2893,6 +2940,9 @@
     .home_page20 .bt_main {
         padding: 0 25px;
     }
+    .home_page20 .bt_main2 {
+        padding: 0 25px;
+    }
     .top_sec {
         line-height: 24px;
         font-size: 15px;
@@ -3243,6 +3293,9 @@
         margin: 7px 0 0;
         float: right;
     }
+    .main_menu {
+        margin: 21px 0 0;
+    }
     .header_fixed {
         width: 100%;
         z-index: 1;
@@ -3357,6 +3410,7 @@
         border-top: solid #ddd 2px;
     }
     .main_menu .clearfix.show-on-mobile {
+        margin-top: 1.2rem;
         opacity: 1;
         visibility: visible;
     }
